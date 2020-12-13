@@ -1,16 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap');
+
 body {
     background-color: #c8d0d2;
     margin: 0;
+    font-family: 'Andika New Basic', sans-serif;
 }
 
 .container {
     max-width: 900px;
-    margin: 1rem 2rem;
+    margin: 1rem 15rem;
+    
 }
 
 .header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     background-color: #fff;
@@ -58,7 +62,7 @@ body {
     position: relative;
     border-radius: .25rem;
     box-shadow: 0 0 5px 2px rgba(0, 0, 0, .3);
-    background-color: #fff;
+    background-color: #ffff99;
     transform-style: preserve-3d;
     transition: 150ms;
     cursor: pointer;
@@ -94,9 +98,9 @@ body {
 }
 
 .flashcard-option {
-    margin-top: 0.25rem;
+    margin-top: 0.20rem;
     color: #555;
-    font-size: .75rem;
+    font-size: .70rem;
 }
 
 .flashcard-option:first-child {
